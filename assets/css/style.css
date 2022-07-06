@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/Prof_OOH_preview_4_longguy.png") top center;
+  background: url("../img/novyi-foto-kolledz.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -633,6 +633,14 @@ section {
 }
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
   color: #fff;
+}
+
+#services > .container > .row {
+	justify-content: space-evenly;
+}
+
+#services > .container > .row > .card {
+	margin-bottom: 40px;
 }
 
 /*--------------------------------------------------------------
